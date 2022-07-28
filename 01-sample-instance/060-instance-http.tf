@@ -2,7 +2,7 @@
 
 # Create instance
 resource "aws_instance" "http" {
-  ami           = data.aws_ami.ubuntu.id
+  ami           = ami-0e5867353868640f8.4
   instance_type = "t2.micro"
   key_name      = aws_key_pair.user_key.key_name
   vpc_security_group_ids = [
