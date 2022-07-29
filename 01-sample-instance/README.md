@@ -12,6 +12,7 @@ This script will create:
 -   1 vpc
 -   1 subnet
 -   1 instance
+-   lauch Jenkins server
 
 ### Delete stack
 
